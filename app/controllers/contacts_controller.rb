@@ -12,7 +12,7 @@ class ContactsController < ApplicationController
 
   def show
     @status_id = @contact.status_id
-    @status = Status.find_by(@status_id)
+    @status = Status.where(status_id: @status_id)
     @status_name = @status.value
     respond_with(@contact)
      

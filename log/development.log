@@ -30992,3 +30992,251 @@ Processing by StatusesController#index as HTML
   [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = ?[0m  [["user_id", 13]]
   Rendered statuses/index.html.erb within layouts/application (3.2ms)
 Completed 200 OK in 479ms (Views: 475.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-01-13 16:41:27 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AboutController#index as HTML
+Completed 401 Unauthorized in 41ms
+
+
+Started GET "/users/sign_in" for ::1 at 2015-01-13 16:41:27 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/shared/_links.html.erb (10.1ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/sessions/new.html.erb within layouts/application (80.5ms)
+Completed 200 OK in 1179ms (Views: 1165.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/about-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-13 16:41:28 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-16596e9cea4f70157d6da26d7ebf33dd.css?body=1" for ::1 at 2015-01-13 16:41:28 +0100
+
+
+Started GET "/assets/contacts-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-6c78077e27fdcf3c742b25dc40003d13.css?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides-d7194e944961c2974a3959752b81e84b.css?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/registrations-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/scaffolds-e17980b3c20a37b1c7ac289400964853.css?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/statuses-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/status-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/application-fe3639c41cdd9e1dfb4c76c886772f41.css?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/about-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/contacts-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/registrations-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/status-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/statuses-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/assets/application-aef9780f55a3604ee18078ac2e420d16.js?body=1" for ::1 at 2015-01-13 16:41:29 +0100
+
+
+Started GET "/images/favicon.ico" for ::1 at 2015-01-13 16:41:29 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/lorenzosinisi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorenzosinisi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorenzosinisi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (5.4ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (77.7ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (275.6ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-01-13 16:41:34 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cB4YwL4v6PdmyE5oDwnmVJRZDCNCmvcozzVI5y5J7CURakJ5hcKRH7Jb1oSNdzMHAf50YXqOM7VCL2dgHkHWkQ==", "user"=>{"email"=>"info@lorenzosinisi.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (13.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "info@lorenzosinisi.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2015-01-12 17:18:42.579048"], ["current_sign_in_at", "2015-01-13 15:41:34.730432"], ["current_sign_in_ip", "::1"], ["sign_in_count", 6], ["updated_at", "2015-01-13 15:41:34.733117"], ["id", 2]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 248ms (ActiveRecord: 25.7ms)
+
+
+Started GET "/" for ::1 at 2015-01-13 16:41:34 +0100
+Processing by AboutController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mStatus Load (17.0ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 7]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 8]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 9]]
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 7]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered contacts/_modal.html.erb (22.1ms)
+  [1m[36mContact Load (0.1ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/_modal.html.erb (4.5ms)
+  Rendered contacts/_modal.html.erb (4.4ms)
+  [1m[35mContact Load (0.1ms)[0m  SELECT "contacts".* FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/_modal.html.erb (3.5ms)
+  Rendered about/index.html.erb within layouts/application (137.0ms)
+Completed 200 OK in 893ms (Views: 740.5ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/contacts" for ::1 at 2015-01-13 16:41:37 +0100
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE "contacts"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mStatus Load (0.2ms)[0m  SELECT  "statuses".* FROM "statuses" WHERE (7) LIMIT 1
+  [1m[36mStatus Load (0.2ms)[0m  [1mSELECT  "statuses".* FROM "statuses" WHERE (8) LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "statuses".* FROM "statuses" WHERE (8) LIMIT 1
+  [1m[36mStatus Load (0.2ms)[0m  [1mSELECT  "statuses".* FROM "statuses" WHERE (9) LIMIT 1[0m
+  Rendered contacts/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 440ms (Views: 436.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/statuses" for ::1 at 2015-01-13 16:41:39 +0100
+Processing by StatusesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mStatus Load (0.2ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered statuses/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 413ms (Views: 410.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-01-13 16:41:41 +0100
+Processing by AboutController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 7]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 8]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 9]]
+  [1m[36mContact Load (0.1ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 7]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered contacts/_modal.html.erb (3.9ms)
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE "contacts"."status_id" = ?[0m  [["status_id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/_modal.html.erb (2.9ms)
+  Rendered contacts/_modal.html.erb (4.8ms)
+  [1m[35mContact Load (0.1ms)[0m  SELECT "contacts".* FROM "contacts" WHERE "contacts"."status_id" = ?  [["status_id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/_modal.html.erb (4.4ms)
+  Rendered about/index.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 427ms (Views: 423.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/contacts" for ::1 at 2015-01-13 16:41:42 +0100
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.1ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE "contacts"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mStatus Load (0.1ms)[0m  SELECT  "statuses".* FROM "statuses" WHERE (7) LIMIT 1
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT  "statuses".* FROM "statuses" WHERE (8) LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "statuses".* FROM "statuses" WHERE (8) LIMIT 1
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT  "statuses".* FROM "statuses" WHERE (9) LIMIT 1[0m
+  Rendered contacts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 356ms (Views: 353.4ms | ActiveRecord: 0.6ms)
