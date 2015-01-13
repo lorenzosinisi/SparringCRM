@@ -15912,3 +15912,440 @@ Processing by RegistrationsController#new as HTML
   Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/shared/_links.html.erb (2.9ms)
   Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/registrations/new.html.erb within layouts/application (41.2ms)
 Completed 200 OK in 468ms (Views: 466.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:48:08 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1264ms (Views: 1239.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-12 21:48:09 +0100
+
+
+Started GET "/assets/registrations-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-12 21:48:09 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-6c78077e27fdcf3c742b25dc40003d13.css?body=1" for ::1 at 2015-01-12 21:48:09 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides-d7194e944961c2974a3959752b81e84b.css?body=1" for ::1 at 2015-01-12 21:48:09 +0100
+
+
+Started GET "/assets/contacts-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-12 21:48:09 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-16596e9cea4f70157d6da26d7ebf33dd.css?body=1" for ::1 at 2015-01-12 21:48:09 +0100
+
+
+Started GET "/assets/scaffolds-e17980b3c20a37b1c7ac289400964853.css?body=1" for ::1 at 2015-01-12 21:48:09 +0100
+
+
+Started GET "/assets/status-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-12 21:48:09 +0100
+
+
+Started GET "/assets/statuses-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/application-8f0bc0f252a68812441528bad71661e2.css?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/about-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/contacts-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/registrations-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/status-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/statuses-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/assets/application-aef9780f55a3604ee18078ac2e420d16.js?body=1" for ::1 at 2015-01-12 21:48:10 +0100
+
+
+Started GET "/images/favicon.ico" for ::1 at 2015-01-12 21:48:10 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/lorenzosinisi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/lorenzosinisi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/lorenzosinisi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (30.4ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.8ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (128.7ms)
+
+
+Started GET "/statuses" for ::1 at 2015-01-12 21:53:52 +0100
+Processing by StatusesController#index as HTML
+Completed 401 Unauthorized in 76ms
+
+
+Started GET "/users/sign_in" for ::1 at 2015-01-12 21:53:53 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/shared/_links.html.erb (8.0ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/sessions/new.html.erb within layouts/application (104.8ms)
+Completed 200 OK in 627ms (Views: 588.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/statuses" for ::1 at 2015-01-12 21:53:54 +0100
+Processing by StatusesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/statuses" for ::1 at 2015-01-12 21:53:54 +0100
+Processing by StatusesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for ::1 at 2015-01-12 21:53:54 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/shared/_links.html.erb (3.8ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/sessions/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 367ms (Views: 365.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-01-12 21:54:05 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hqIMD2NFaa0PdEdbL9spl0DrWa/51J8NzujcuNcz41VHq7YcMFMPBV7kiUzp2k0ng7PAYx/YP+fkBm18faVmpw==", "user"=>{"email"=>"lasslo.net@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (34.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "lasslo.net@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2015-01-12 17:22:57.886953"], ["current_sign_in_at", "2015-01-12 20:54:05.579316"], ["current_sign_in_ip", "::1"], ["sign_in_count", 4], ["updated_at", "2015-01-12 20:54:05.581217"], ["id", 1]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/statuses
+Completed 302 Found in 440ms (ActiveRecord: 36.7ms)
+
+
+Started GET "/statuses" for ::1 at 2015-01-12 21:54:05 +0100
+Processing by StatusesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mStatus Load (14.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered statuses/index.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 506ms (Views: 412.7ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:54:14 +0100
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 394ms (Views: 393.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/statuses" for ::1 at 2015-01-12 21:54:16 +0100
+Processing by StatusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = ?  [["user_id", 1]]
+  Rendered statuses/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 345ms (Views: 343.1ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-01-12 21:54:19 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tYum1yMn2Mw9DQ1etwemr0rSeqXuTCCi7nrW2afEuqkWxFzucN/qVOiQAwwOOWBqnhsBCPlh1bwrXuD/+zoP4A=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:54:20 +0100
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 372ms (Views: 371.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:54:36 +0100
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 358ms (Views: 357.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2015-01-12 21:54:43 +0100
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for ::1 at 2015-01-12 21:54:43 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/shared/_links.html.erb (4.3ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/sessions/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 383ms (Views: 381.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-01-12 21:54:46 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CyKU7gJ2R8z3keOvHTwp8I2aPHAtBtC2prPFYUIXBFqgQRx1YQ2R/st8lyOPCM71U/7R/VBLf0dCvRwLSCaHpg==", "user"=>{"email"=>"lasslo.net@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "lasslo.net@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "remember_created_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["remember_created_at", "2015-01-12 20:54:46.688377"], ["updated_at", "2015-01-12 20:54:46.689705"], ["id", 1]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-01-12 20:54:05.579316"], ["current_sign_in_at", "2015-01-12 20:54:46.723201"], ["last_sign_in_ip", "::1"], ["sign_in_count", 5], ["updated_at", "2015-01-12 20:54:46.725616"], ["id", 1]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/contacts
+Completed 302 Found in 139ms (ActiveRecord: 4.6ms)
+
+
+Started GET "/contacts" for ::1 at 2015-01-12 21:54:46 +0100
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (14.7ms)[0m  SELECT "contacts".* FROM "contacts" WHERE "contacts"."user_id" = ?  [["user_id", 1]]
+  Rendered contacts/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 452ms (Views: 393.6ms | ActiveRecord: 15.3ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:54:49 +0100
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 351ms (Views: 350.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-01-12 21:54:50 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Jm13Xq2wpf/SHO3MgV/8CExsxAE5HvQ9TWHrde/MgZWFI9WklBmtqHRvg6d/IPG0qzwTXGo9cSs46J6ayiQ44w=="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "remember_created_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["remember_created_at", nil], ["updated_at", "2015-01-12 20:54:50.742000"], ["id", 1]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:54:50 +0100
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 364ms (Views: 362.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-01-12 21:54:53 +0100
+Processing by RegistrationsController#new as HTML
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/shared/_links.html.erb (5.4ms)
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/registrations/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 404ms (Views: 402.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2015-01-12 21:55:04 +0100
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zut8TRVJeVg0mJ5t88xFMy6Copii7Qwh6ZbKWp7RZFVFnntO9XQXTFlCKusjT4Whpclv4MOROvNK3DT9NCSpHg==", "user"=>{"email"=>"lasslo.net@gmail.comd", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'lasslo.net@gmail.comd' LIMIT 1[0m
+  [1m[35mSQL (20.6ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "lasslo.net@gmail.comd"], ["encrypted_password", "$2a$10$bc4TPXX4taZFaO8frQntAu0WzT5lQaJyWcXUAs0W03jk4u3ly/LLe"], ["created_at", "2015-01-12 20:55:04.291682"], ["updated_at", "2015-01-12 20:55:04.291682"]]
+  [1m[36m (26.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-01-12 20:55:04.342070"], ["current_sign_in_at", "2015-01-12 20:55:04.342070"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2015-01-12 20:55:04.343251"], ["id", 11]]
+  [1m[35m (41.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/contacts/new
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "statuses" ("value", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["value", "Lead"], ["user_id", 11], ["created_at", "2015-01-12 20:55:04.397077"], ["updated_at", "2015-01-12 20:55:04.397077"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "statuses" ("value", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["value", "Contacted"], ["user_id", 11], ["created_at", "2015-01-12 20:55:04.401285"], ["updated_at", "2015-01-12 20:55:04.401285"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "statuses" ("value", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["value", "Demo"], ["user_id", 11], ["created_at", "2015-01-12 20:55:04.404917"], ["updated_at", "2015-01-12 20:55:04.404917"]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "statuses" ("value", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["value", "Negotiation"], ["user_id", 11], ["created_at", "2015-01-12 20:55:04.408719"], ["updated_at", "2015-01-12 20:55:04.408719"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "statuses" ("value", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["value", "Closed - Lost"], ["user_id", 11], ["created_at", "2015-01-12 20:55:04.412547"], ["updated_at", "2015-01-12 20:55:04.412547"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "statuses" ("value", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["value", "Closed - Won"], ["user_id", 11], ["created_at", "2015-01-12 20:55:04.416910"], ["updated_at", "2015-01-12 20:55:04.416910"]]
+  [1m[35m (2.0ms)[0m  commit transaction
+Completed 302 Found in 322ms (ActiveRecord: 100.5ms)
+
+
+Started GET "/contacts/new" for ::1 at 2015-01-12 21:55:04 +0100
+Processing by ContactsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 11]]
+  [1m[35mStatus Load (0.2ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = ?  [["user_id", 11]]
+  Rendered contacts/_form.html.erb (21.5ms)
+  Rendered contacts/new.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 408ms (Views: 397.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/contacts" for ::1 at 2015-01-12 21:55:46 +0100
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yPqJycKztQT0KXhT/r1AnQHZcU6B6qdjoaNbKlA2igtDj47KIo7bEJnzzNUuPoAPipK8NuCWkbEC6aWN+sNHQA==", "contact"=>{"status_id"=>"", "value"=>"400", "name"=>"Jana", "note"=>"No note", "assigned_to"=>"", "email"=>"", "phone"=>""}, "commit"=>"Create Contact"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 11]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "contacts" ("value", "name", "note", "assigned_to", "email", "phone", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["value", "400"], ["name", "Jana"], ["note", "No note"], ["assigned_to", ""], ["email", ""], ["phone", ""], ["user_id", 11], ["created_at", "2015-01-12 20:55:46.850103"], ["updated_at", "2015-01-12 20:55:46.850103"]]
+  [1m[35m (8.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/contacts/13
+Completed 302 Found in 28ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/contacts/13" for ::1 at 2015-01-12 21:55:46 +0100
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mContact Load (0.4ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 11]]
+  [1m[36mStatus Load (0.3ms)[0m  [1mSELECT  "statuses".* FROM "statuses" LIMIT 1[0m
+  Rendered contacts/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 475ms (Views: 416.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:55:50 +0100
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 11]]
+Completed 200 OK in 407ms (Views: 406.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contacts" for ::1 at 2015-01-12 21:55:52 +0100
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 11]]
+  [1m[35mContact Load (0.1ms)[0m  SELECT "contacts".* FROM "contacts" WHERE "contacts"."user_id" = ?  [["user_id", 11]]
+  [1m[36mStatus Load (0.3ms)[0m  [1mSELECT  "statuses".* FROM "statuses" LIMIT 1[0m
+  Rendered contacts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 381ms (Views: 378.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/statuses" for ::1 at 2015-01-12 21:55:56 +0100
+Processing by StatusesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 11]]
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = ?[0m  [["user_id", 11]]
+  Rendered statuses/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 427ms (Views: 424.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:55:57 +0100
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 11]]
+Completed 200 OK in 369ms (Views: 367.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contacts" for ::1 at 2015-01-12 21:56:00 +0100
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 11]]
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts" WHERE "contacts"."user_id" = ?  [["user_id", 11]]
+  [1m[36mStatus Load (0.3ms)[0m  [1mSELECT  "statuses".* FROM "statuses" LIMIT 1[0m
+  Rendered contacts/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 359ms (Views: 356.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:56:31 +0100
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 11]]
+Completed 200 OK in 363ms (Views: 362.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/edit" for ::1 at 2015-01-12 21:56:37 +0100
+Processing by RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 11]]
+  Rendered /Users/lorenzosinisi/.rvm/gems/ruby-2.1.2/bundler/gems/devise-1d8890b77372/app/views/devise/registrations/edit.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 416ms (Views: 414.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/users" for ::1 at 2015-01-12 21:56:41 +0100
+Processing by RegistrationsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WFUI4/QkjPeW8s9q/Ye7pGh1rKW7H69ajNzebNT92kbTIA/gFBni4/soe+wtBHs24z5h3dpjmYgvliDLfggXDQ=="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 11]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mContact Load (0.1ms)[0m  SELECT "contacts".* FROM "contacts" WHERE "contacts"."user_id" = ?  [["user_id", 11]]
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "contacts" WHERE "contacts"."id" = ?[0m  [["id", 13]]
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = ?  [["user_id", 11]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "statuses" WHERE "statuses"."id" = ?[0m  [["id", 19]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "statuses" WHERE "statuses"."id" = ?  [["id", 20]]
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "statuses" WHERE "statuses"."id" = ?[0m  [["id", 21]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "statuses" WHERE "statuses"."id" = ?  [["id", 22]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "statuses" WHERE "statuses"."id" = ?[0m  [["id", 23]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "statuses" WHERE "statuses"."id" = ?  [["id", 24]]
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 11]]
+  [1m[35m (36.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 48ms (ActiveRecord: 38.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-12 21:56:41 +0100
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 368ms (Views: 367.8ms | ActiveRecord: 0.0ms)
