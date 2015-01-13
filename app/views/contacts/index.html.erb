@@ -5,8 +5,7 @@
 <table>
   <thead>
     <tr>
-      <th>Status</th>
-      <th>User</th>
+
       <th>Value</th>
       <th>Name</th>
       <th>Note</th>
@@ -20,8 +19,6 @@
   <tbody>
     <% @contacts.each do |contact| %>
       <tr>
-        <td><%= Status.where(status_id: contact.status_id).value %></td>
-        <td><%= contact.user_id %></td>
         <td><%= contact.value %></td>
         <td><%= contact.name %></td>
         <td><%= contact.note %></td>

@@ -1,26 +1,23 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Statuses</h1>
+<h1>Edit status of your contacts - <%= link_to 'Add new', new_status_path %></h1>
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @statuses.each do |status| %>
-      <tr>
-        <td><%= status.value %></td><br />
-        <td><%= link_to 'Show', status %></td>
-        <td><%= link_to 'Edit', edit_status_path(status) %></td>
-        <td><%= link_to 'Destroy', status, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<hr>
+<div class="col-md-12">
+  <% @statuses.select {|status| status.contacts.count >= 0}.each do |status| %>
+    <div class="<%= cycle("arrow_box_red", "arrow_box_orange", "arrow_box_green", "arrow_box_dark_green","arrow_box_blue","arrow_box_dark_blue") -%>">
+         <p class="value-arrow" id="tables-hover-rows"><%= status.value %><br>
+          <%= status.contacts.count %><br>
 
-<br>
+         </p>
+         <hr>
+         <%= link_to 'Show', status %><br>
+         <%= link_to 'Edit', edit_status_path(status) %><br>
+         <%= link_to 'Destroy', status, method: :delete, data: { confirm: 'Are you sure?' } %><br>
+     </div>
 
-<%= link_to 'New Status', new_status_path %>
+
+  <% end %>
+</div>
+
